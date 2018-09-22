@@ -259,7 +259,7 @@ var config = {
        			position: 'bottom_center',
         		config: {
             		email: "michelleandresanz@gmail.com",
-            		pass: "1921011Ma.",
+            		pass: "**********",
             		lat: "25.759979",                     // your latitude
             		lon: "-80.374082",                    // your longitude
             		title: "",                            // Use instead of header. Not underlined!
