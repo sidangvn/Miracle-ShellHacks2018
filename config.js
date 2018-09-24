@@ -57,7 +57,7 @@ var config = {
     			module:     "MMM-3Day-Forecast",
     			position:   "top_left",
 				config: {
-			api_key:    "1f500d3a47554f58b6299f6dd699c1b8",
+			api_key:    "1f500d3a475****************",
 			lat:        25.7825453,
 			lon:        -80.2994988,
 			units:      'M',
@@ -79,7 +79,7 @@ var config = {
 			config: {
 				location: "Miami",
 				locationID: "5162774",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "api.openweathermap.org/data/2.5/forecast?id=524901&APPID=5162774"
+				appid: "api.openweathermap.org/data/2.5/forecast?id=****************"
 			}
 		},
 		
@@ -91,7 +91,7 @@ var config = {
 			config: {
 				location: "Miami",
 				locationID: "5162774",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "api.openweathermap.org/data/2.5/forecast?id=524901&APPID=5162774"
+				appid: "api.openweathermap.org/data/2.5/forecast?id=*****************"
 			}
 		},
 
@@ -167,7 +167,7 @@ var config = {
 		position: 'top_right',
 		classes: 'dimmed medium', //optional, default is 'bright medium', only applies to commute info not route_name
 		config: {
-		api_key: 'AIzaSyCc-WJJVxU-ueeWX00Tp72H-********',
+		api_key: '**********-WJJVxU-********Tp72H-********',
 		mode: 'Driving',
 		origin: '11200 SW 8th St, Miami, FL 33199',
 		destination: '4202 E Fowler Ave, Tampa, FL 33620',
@@ -193,7 +193,7 @@ var config = {
 
 		username: 'sidangvn',
 	
-		apikey: 'bf1d75ad4c14de8a0724b558******',
+		apikey: 'b***********a0724b558******',
 	
 		//time interval to search for new song (every 15 seconds)
 		updateInterval: 5 * 1000,
