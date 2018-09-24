@@ -52,7 +52,7 @@ var config = {
 		},
 
 
-
+		//3 DAYS WEATHER FORECAST
 		{
     			module:     "MMM-3Day-Forecast",
     			position:   "top_left",
@@ -63,15 +63,17 @@ var config = {
 			units:      'M',
 			lang:       'en',
 			interval:   900000
-	}
-},
-
-
-		/*{
+			}
+		},
+	
+		//COMPLIMENTS
+		{
 			module: "compliments",
 			position: "lower_third"
-		},*/
-	/*	{
+		},
+		
+		//CURRENT WEATHER
+		{
 			module: "currentweather",
 			position: "top_right",
 			config: {
@@ -80,6 +82,8 @@ var config = {
 				appid: "api.openweathermap.org/data/2.5/forecast?id=524901&APPID=5162774"
 			}
 		},
+		
+		//WEATHER FORECAST WITH LOCATION
 		{
 			module: "weatherforecast",
 			position: "top_right",
@@ -89,14 +93,9 @@ var config = {
 				locationID: "5162774",  //ID from http://www.openweathermap.org/help/city_list.txt
 				appid: "api.openweathermap.org/data/2.5/forecast?id=524901&APPID=5162774"
 			}
-		},*/ 
+		},
 
-
-			
-			
-
-
-
+		//NEW YORK TIME NEWS REALTIME
 		{
 			module: "newsfeed",
 			position: "bottom_bar",
@@ -112,8 +111,7 @@ var config = {
 			}
 		},
 
-		/*GLOBE*/
-	
+		/*EARTH ROTATING - GLOBE*/
 		{	
 			module: 'MMM-Globe',
         		/*header: 'robstechlog.com',*/
@@ -139,24 +137,7 @@ var config = {
             			}
         	},
 
-		{
-    			module: 'MMM-MirrorMirrorOnTheWall',
-    			position: 'middle_center',
-    			config: {}
-		},
-
-
-		{
-		module: 'iFrame',
-		position: 'center',	// This can be any of the regions.
-		config: {
-			// See 'Configuration options' for more information.
-				url:'https://www.youtube.com/watch?v=pWUzkxtoJ2I',
-				width: '100%' ,// Optional. Default: 100%
-				height: '100px' ,//Optional. Default: 100px
-			}
-		},
-
+		//A YOUTUBE TAB
 		{
 		module: 'MMM-iFrame',
 		position: 'lower_third',	// This can be any of the regions.
@@ -169,19 +150,8 @@ var config = {
 			}
 		},
 	
+		//RANDOM QUOTES
 		{
-		module: 'MMM-Globe',
-		position: 'center',
-		config: {
-		style: 'geoColor',
-		imageSize: 600,
-		ownImagePath:'',
-		updateInterval: 10*60*1000
-			}
-		},
-	
-		{
-		
 		module: 'random_quotes',
 		position: 'lower_third',
 		config: {
@@ -191,13 +161,13 @@ var config = {
 			}
 		},
 
-		/*TRAFFIC*/
+		/*TRAFFIC EXPECTED TIME WITH GOOGLE CLOUD API*/
 		{
 		module: 'MMM-Traffic',
 		position: 'top_right',
 		classes: 'dimmed medium', //optional, default is 'bright medium', only applies to commute info not route_name
 		config: {
-		api_key: 'AIzaSyCc-WJJVxU-ueeWX00Tp72H-n3b48GxR6c',
+		api_key: 'AIzaSyCc-WJJVxU-ueeWX00Tp72H-********',
 		mode: 'Driving',
 		origin: '11200 SW 8th St, Miami, FL 33199',
 		destination: '4202 E Fowler Ave, Tampa, FL 33620',
@@ -214,8 +184,8 @@ var config = {
 			}
 		},
 
-		{
-			
+		//SPOTIFY DISPLAY WITH LAST.FM API
+		{	
 		module: 'MMM-Scrobbler',
 	
 		position: 'top_left',
@@ -223,7 +193,7 @@ var config = {
 
 		username: 'sidangvn',
 	
-		apikey: 'bf1d75ad4c14de8a0724b55824cf11ed',
+		apikey: 'bf1d75ad4c14de8a0724b558******',
 	
 		//time interval to search for new song (every 15 seconds)
 		updateInterval: 5 * 1000,
@@ -241,6 +211,7 @@ var config = {
 	
 		},
 
+		//SCREEN CAST - YOUTUBE VIDEOS
 		{
 		module: 'MMM-Screencast',
 		position: 'center', // This position is for a hidden <div /> and not the screencast window
