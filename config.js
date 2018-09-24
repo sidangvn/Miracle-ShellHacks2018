@@ -258,7 +258,7 @@ var config = {
         		header: "",                                // standard header, underlined
        			position: 'bottom_center',
         		config: {
-            		email: "michelleandresanz@gmail.com",
+            		email: "*********@gmail.com",
             		pass: "**********",
             		lat: "25.759979",                     // your latitude
             		lon: "-80.374082",                    // your longitude
