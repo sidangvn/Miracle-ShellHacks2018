@@ -1,4 +1,4 @@
-# Miracle-ShellHacks2018
+# Miracle-ShellHacks2018 -  Best IoT Hack and Amazon Echo Hack of Major League Hacking Award
 # Inspiration
 Welcome to the World of Miracle! It is an IoT (Internet of Things), made using Raspberry Pi 3B+, Amazon Echo, and a smart outlet. They are all interlinked using the smart outlet and API’s are used as well which is identified specifically as follows.
 
